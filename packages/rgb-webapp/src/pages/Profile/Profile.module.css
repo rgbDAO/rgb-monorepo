@@ -1,0 +1,20 @@
+.rgbProfileInfo {
+  margin-top: 10rem;
+}
+
+.rgbProfileWrapper {
+  font-family: 'PT Root UI Medium';
+  font-style: normal;
+  font-feature-settings: 'tnum' on, 'lnum' on, 'ss01' on, 'liga' off;
+  background-color: white;
+  flex: 1;
+}
+
+@media (max-width: 992px) {
+  .rgbProfileInfo {
+    background-color: white;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    margin-top: 0rem;
+  }
+}

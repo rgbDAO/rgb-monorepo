@@ -1,0 +1,34 @@
+.rgbInfoHeader {
+  display: inline-block;
+  padding-left: 0rem;
+  font-family: 'Londrina Solid';
+}
+
+@media only screen and (max-width: 600px) {
+  .rgbInfoHeader {
+    padding-top: 1.5rem;
+    margin-bottom: 0;
+  }
+}
+
+.rgbInfoHeader h2 {
+  font-size: 56px;
+  margin-bottom: 18px;
+}
+
+.rgbInfoHeader h3 {
+  font-size: 24px;
+  margin-bottom: '0px';
+  color: #79809c;
+}
+
+.rgbInfoRow {
+  padding-bottom: 1rem;
+  font-size: 18px;
+  display: flex;
+}
+
+.rgbInfoRowText {
+  padding-left: 4;
+  font-family: 'PT Root UI Bold';
+}

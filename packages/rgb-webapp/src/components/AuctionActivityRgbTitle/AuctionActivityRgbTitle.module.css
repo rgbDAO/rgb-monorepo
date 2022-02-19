@@ -1,0 +1,23 @@
+.rgbTitle {
+  color: black;
+}
+
+.rgbTitle a:link {
+  color: black;
+}
+
+.rgbTitle a:visited {
+  color: black;
+}
+
+.rgbTitle a:hover {
+  color: black;
+}
+
+.rgbTitle:active {
+  color: black;
+}
+
+.wrapper {
+  display: inline-block;
+}

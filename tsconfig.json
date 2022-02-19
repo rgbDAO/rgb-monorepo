@@ -1,0 +1,8 @@
+{
+    "references": [
+        { "path": "packages/rgb-api" },
+        { "path": "packages/rgb-assets" },
+        { "path": "packages/rgb-contracts" },
+        { "path": "packages/rgb-sdk" },
+    ]
+}

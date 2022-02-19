@@ -1,0 +1,40 @@
+.wrapper {
+  display: flex;
+  flex: 1;
+}
+.container {
+  display: flex;
+}
+.footerSignature {
+  margin: auto auto 0 auto;
+  font-family: 'Londrina Solid';
+  font-size: 1rem;
+  text-align: center;
+  padding: 1rem 0;
+}
+.footerSignature a {
+  text-decoration: none;
+  color: black;
+  margin: 0 5px;
+}
+.footerSignature a:hover {
+  text-decoration: underline;
+  animation-name: slidein;
+}
+.footerSignature img {
+  width: 32px;
+  height: 32px;
+  margin: 0 8px;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
